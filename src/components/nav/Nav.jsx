@@ -1,12 +1,12 @@
 import React from 'react'
 import './nav.css'
-import {useState} from 'react'
-import {AiFillHome} from 'react-icons/ai'
-import {FaPaintBrush} from 'react-icons/fa'
-import {FaCode} from 'react-icons/fa'
-import {BsBriefcaseFill} from 'react-icons/bs'
-import {AiFillMessage} from 'react-icons/ai'
-import {BsCameraFill} from 'react-icons/bs'
+import { useState } from 'react'
+import { AiFillHome } from 'react-icons/ai'
+import { FaPaintBrush } from 'react-icons/fa'
+import { FaCode } from 'react-icons/fa'
+import { BsBriefcaseFill } from 'react-icons/bs'
+import { AiFillMessage } from 'react-icons/ai'
+import { BsCameraFill } from 'react-icons/bs'
 
 
 const Nav = () => {

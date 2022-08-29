@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
 * {
     margin: 0;
@@ -43,9 +43,19 @@ body {
     background-size: 10vh 10vw;
 }
 
+ul {
+    padding-left: 1.5rem;
+    list-style-type: square;
+}
+
+li { 
+    display: list-item; 
+    list-style-type: square;
+}
+
 /* general styles */
 
-.container {
+.container-glass {
     width: var(--container-width-lg);
     margin: 0 auto; /* position it in the middle horizontally */
     /* background-color: rgb(91, 87, 87); */
@@ -55,6 +65,12 @@ body {
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(9.9px);
     -webkit-backdrop-filter: blur(9.9px);
+}
+
+.container-normal {
+    width: var(--container-width-lg);
+    margin: 0 auto; /* position it in the middle horizontally */
+
 }
 
 h1, 

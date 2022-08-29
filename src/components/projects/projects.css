@@ -3,7 +3,6 @@ header {
     padding-top: 2rem;
     padding-bottom: 2rem;
     overflow: hidden;
-    /* background-color:rgb(43, 43, 48); */
     color: var(--color-dark);
 }
 
